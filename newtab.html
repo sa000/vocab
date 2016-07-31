@@ -1,0 +1,44 @@
+
+
+
+<link href="layout.css" type="text/css" rel="stylesheet" />
+ 
+<div class="container">
+      <div class="panel panel-default">
+        <div class="panel-heading"><strong>Upload Files</strong> <small></small></div>
+        <div class="panel-body">
+
+          <!-- Standar Form -->
+          <h4>Select files from your computer</h4>
+          <form action="" method="post" enctype="multipart/form-data" id="js-upload-form">
+            <div class="form-inline">
+              <div class="form-group">
+                <input type="file" id="fileinput" multiple="multiple" />
+
+              </div>
+              <button type="submit" class="btn btn-sm btn-primary" id="js-upload-submit">Add them to deck</button>
+            </div>
+          </form>
+
+          <!-- Drop Zone -->
+          <h4>Or drag and drop files below</h4>
+          <div class="upload-drop-zone" id="drop-zone">
+            Just drag and drop files here
+          </div>
+          <output id="list"></output>
+
+
+      <div id="the question">
+      HERE"S YOUR question
+      </div>
+
+      <div id="the answer">
+      HERE"S YOUR ans
+      </div>
+ 
+
+        </div>
+      </div>
+    </div> <!-- /container -->
+
+<script src="layout.js"> </script>
